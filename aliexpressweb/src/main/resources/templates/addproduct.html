@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handing Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Form</h1>
+    <form action="#" th:action="@{/products}" th:object="${product}" method="post">
+    	<p><input type="hidden" th:field="*{id}"/></p>
+    	<p>name: <input type="text" th:field="*{productName}" /></p>
+        <p>price: <input type="text" th:field="*{productPrice}" /></p>
+        <p>quantity: <input type="text" th:field="*{productQuantity}" /></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+    <a href="/products">Go back</a>
+</body>
+</html>
