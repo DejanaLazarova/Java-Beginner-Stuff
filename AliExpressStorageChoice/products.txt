@@ -1,0 +1,5 @@
+1&iPhone&40000&5
+2&Samsung Galaxy&36000&10
+3&Acer Aspire Laptop&30000&15
+4&Mac Book Pro&100500&20
+5&Toshiba Tablet&18000&25
